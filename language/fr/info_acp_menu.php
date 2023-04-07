@@ -100,8 +100,9 @@ $lang = array_merge($lang, [
 	'MENU_NONE'					=> 'Aucune',
 	'MENU_LOWERCASE'			=> 'Minuscule',
 	'MENU_UPPERCASE'			=> 'Majuscule',
-	'MENU_ALIGN_START'			=> 'Gauche',
-	'MENU_ALIGN_END'			=> 'Droite',
+	'MENU_ALIGN_CENTER'			=> 'Au centre',
+	'MENU_ALIGN_END'			=> 'À droite',
+	'MENU_ALIGN_START'			=> 'À gauche',
 	'MENU_UNDERLINE'			=> 'Souligné',
 
 	'BUTTON_UPDATED'			=> 'Le lien a été actualisé avec succès',
