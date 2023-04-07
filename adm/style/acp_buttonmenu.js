@@ -104,6 +104,6 @@ $(function () {
 	}
 }(jQuery));
 
-if ($('.input-icon').length) {
-	$('.input-icon').buttonmenuicons('.input-icon');
+if ($(input ='.input-icon').length) {
+	$(input).buttonmenuicons(input);
 }
