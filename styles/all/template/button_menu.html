@@ -14,7 +14,6 @@
 			<a href="{{ button.URL }}" class="link-item main-link-item weight-{{ S_MENU_WEIGHT }} transform-{{ S_MENU_TEXT_TRANSFORM }} hover-decoration-{{ S_MENU_DECORATION }}" role="menuitem"{% if button.EXTERNAL %} aria-label="{{ lang('INFO_EXTERNAL') }}" title="{{ lang('INFO_EXTERNAL') }}" target="_blank"{% endif %}>{% if button.ICON %}<i class="icon {{ button.ICON }} fa-fw" aria-hidden="true"></i>{% endif %}{{ button.NAME }}</a>
 			{% if button.sub %}
 			<button id="button-{{ button.ID }}" class="sub-toggler toggler" aria-haspopup="true" aria-label="{{ lang('SHOW_HIDE_SUBMENU') }}" aria-controls="sub-list-{{ button.ID }}" aria-expanded="false">
-				<!-- <i class="sub-icon fa fa-plus-square" data-menu-icon="sub-list-{{ button.ID }}" aria-hidden="true"></i> -->
 				<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" role="presentation" focusable="false" aria-hidden="true" viewBox="0 0 12 9" class="sub-icon sub-down" data-menu-icon="sub-list-{{ button.ID }}">
 					<polygon points="1 0, 11 0, 6 8"></polygon>
 				</svg>				
