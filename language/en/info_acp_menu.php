@@ -100,8 +100,9 @@ $lang = array_merge($lang, [
 	'MENU_NONE'					=> 'none',
 	'MENU_LOWERCASE'			=> 'lowercase',
 	'MENU_UPPERCASE'			=> 'uppercase',
-	'MENU_ALIGN_START'			=> 'left',
-	'MENU_ALIGN_END'			=> 'right',
+	'MENU_ALIGN_CENTER'			=> 'Center',
+	'MENU_ALIGN_END'			=> 'Right',
+	'MENU_ALIGN_START'			=> 'Left',
 	'MENU_UNDERLINE'			=> 'underline',
 
 	'BUTTON_UPDATED'			=> 'Button has been updated succesfully',
