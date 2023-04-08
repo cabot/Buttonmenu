@@ -23,8 +23,7 @@
 			{% for sub in button.sub %}
 				{% if (sub.PERMISSION eq 1 and S_REGISTERED_USER) or (sub.PERMISSION eq 2 and not S_REGISTERED_USER) or sub.PERMISSION eq 0 %}
 				<li class="list-item sub-list-item list-item-{{ sub.ID }}" role="none">
-					{% if sub.ICON %}<i class="icon {{ sub.CODE }} fa-fw" aria-hidden="true"></i>{% endif %}
-					<a href="{{ sub.URL }}" class="link-item sub-link-item weight-{{ S_MENU_WEIGHT }} transform-{{ S_MENU_TEXT_TRANSFORM }} hover-decoration-{{ S_MENU_DECORATION }}" role="menuitem"{% if button.EXTERNAL %} aria-label="{{ lang('INFO_EXTERNAL') }}" title="{{ lang('INFO_EXTERNAL') }}" target="_blank"{% endif %}>{{ sub.NAME }}</a>
+					<a href="{{ sub.URL }}" class="link-item sub-link-item weight-{{ S_MENU_WEIGHT }} transform-{{ S_MENU_TEXT_TRANSFORM }} hover-decoration-{{ S_MENU_DECORATION }}" role="menuitem"{% if sub.EXTERNAL %} aria-label="{{ lang('INFO_EXTERNAL') }}" title="{{ lang('INFO_EXTERNAL') }}" target="_blank"{% endif %}>{% if sub.ICON %}<i class="icon {{ sub.ICON }} fa-fw" aria-hidden="true"></i>{% endif %}{{ sub.NAME }}</a>
 				</li>
 				{% endif %}
 			{% endfor %}
