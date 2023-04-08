@@ -1,5 +1,7 @@
 # Button Menu extension for phpBB 3.2.x and 3.3.x
 
+![Button_Menu](https://user-images.githubusercontent.com/6350179/230726027-9a5baa51-cd10-42ba-ab5b-59263c53b1ba.png)
+
 ## Install
 
 1. Download the latest release.
