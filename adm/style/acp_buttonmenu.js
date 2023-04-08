@@ -12,7 +12,7 @@ if ($('.input-color').length) {
 	spectrumize('.input-color');
 }
 
-// Show/hide permissions settings
+// Show/hide button display settings
 function toggling(hasToggler) {
 	let $radio = $('input', hasToggler),
 		$isChecked = $(':checked', hasToggler),
