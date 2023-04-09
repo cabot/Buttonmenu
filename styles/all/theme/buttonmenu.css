@@ -25,6 +25,7 @@
 ---------------------------------------------------------------------------- */
 .list-item {
 	position: relative;
+	white-space: nowrap;
 }
 
 .link-item {
