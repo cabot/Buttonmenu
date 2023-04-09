@@ -397,7 +397,7 @@ class acp_buttonmenu_module
 					$left_id = $row['right_id'] + 1;
 					$right_id = $row['right_id'] + 2;
 
-					$sql = 'INSERT INTO ' . $table_menu_buttons . ' (button_url, button_name, button_external, button_icon, button_display, button_permission, left_id, right_id, parent_id)
+					$sql = 'INSERT INTO ' . $table_menu_buttons . ' (button_url, button_name, button_icon, button_external, button_display, button_permission, left_id, right_id, parent_id)
 						VALUES ("' . $button_url . '", "' . $button_name . '", "' . $button_icon . '", ' . $button_external . ', ' . $button_display . ', ' . $button_permission . ', ' . $left_id . ', ' . $right_id . ', ' . $button_parent . ')';
 					$db->sql_query($sql);
 
