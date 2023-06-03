@@ -1,0 +1,12 @@
+@import url("../../all/theme/buttonmenu.css");
+
+.button-menu {
+	--dropdown-background: var(--main-color1) !important;
+	--bgcolor-hover: var(--main-color3) !important;
+}
+
+@media (min-width: 700px) {
+	.sub-list {
+		box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+	}
+}
